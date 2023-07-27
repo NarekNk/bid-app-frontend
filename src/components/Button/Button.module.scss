@@ -1,0 +1,31 @@
+@import '../../css/colors.scss';
+
+.button {
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.primary {
+    color: white;
+    background-color: $main600;
+    border: none;
+
+    &:hover {
+        box-shadow: 0 0 5px 3px $grey200;
+        background-color: $main400;
+    }
+}
+
+.secondary {
+    background-color: transparent;
+    border: 1px solid $grey200;
+    color: $grey600;
+
+    &:hover {
+        box-shadow: 0 0 5px 3px $grey200;
+    }
+}
